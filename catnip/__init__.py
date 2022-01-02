@@ -9,7 +9,7 @@ from flask_socketio import SocketIO
 from flask_socketio import send, emit
 
 def create_app(test_config=None):
-    """ Factory class to create an app!
+    """ Factory function to create an app!
 
     Returns:
         app: Flask application
